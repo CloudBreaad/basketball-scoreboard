@@ -6,17 +6,16 @@ body {
     background-color: #1B244A;
     -webkit-user-select: none;
     user-select: none;
-    
 }
 @font-face {
     font-family:'Cursed Timer ULiL';
     src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .container {
     display: flex;
     justify-content: space-around;
-    gap: 5px;
+    gap: 1px;
 }
 .motherbox{
     text-align: center;
@@ -34,10 +33,21 @@ body {
     font-family: "Cursed Timer ULiL";
     color: red;
 }
-
+.league {
+    margin-top: 30px;
+    width: 40%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+}
 h3 {
     color: azure;
     font-size: x-large;
+    font-family: 'Bebas Neue',sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    color: #fff;
+    margin-bottom: 20px;
 }
 .btn {
     box-shadow:0px 10px 30px -5px rgba(245, 245, 245, 0.543);
@@ -58,14 +68,18 @@ h3 {
 #resetkawan {
     width: 70px;
     background-color: #d31c1c;
+    box-shadow:0px 10px 50px -1px rgba(255, 0, 0, 0.543);
 }
 #resetkawan:hover {
-    background-color: darkred; /
+    background-color: darkred; 
+    box-shadow:0px 10px 50px -1px rgba(255, 246, 180, 0.543);
 } 
 #resetlawan {
     background-color: #d31c1c;
     width: 70px;
+    box-shadow:0px 10px 50px -1px rgba(255, 0, 0, 0.543);
 }
 #resetlawan:hover {
     background-color: darkred;
+    box-shadow:0px 10px 50px -1px rgba(255, 246, 180, 0.543);
 }
