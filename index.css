@@ -1,11 +1,10 @@
 body {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+margin: 0;
     text-align: center;
-    background-color: #1B244A;
     -webkit-user-select: none;
     user-select: none;
+    padding-bottom: none;
 }
 @font-face {
     font-family:'Cursed Timer ULiL';
@@ -16,6 +15,10 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 1px;
+    background: linear-gradient(45deg,#1B244A,#444e79);
+    min-height: 100vh;
+    -webkit-backdrop-filter: blur(39px);
+    backdrop-filter: blur(39px);
 }
 .motherbox{
     text-align: center;
@@ -62,7 +65,7 @@ h3 {
 .btn:hover {
     cursor: pointer;
     background-color: #4bcb5a;
-    box-shadow:0px 10px 50px -1px rgba(255, 246, 180, 0.543);
+    box-shadow:0px 10px 50px -1px rgba(136, 255, 0, 0.543);
     border: 2px solid #9AABD8;
 }
 #resetkawan {
@@ -72,7 +75,8 @@ h3 {
 }
 #resetkawan:hover {
     background-color: darkred; 
-    box-shadow:0px 10px 50px -1px rgba(255, 246, 180, 0.543);
+    box-shadow:0px 10px 70px -1px rgba(255, 73, 73, 0.747);
+    border: 2px solid rgb(207, 0, 0);
 } 
 #resetlawan {
     background-color: #d31c1c;
@@ -81,5 +85,7 @@ h3 {
 }
 #resetlawan:hover {
     background-color: darkred;
-    box-shadow:0px 10px 50px -1px rgba(255, 246, 180, 0.543);
+    box-shadow:0px 10px 70px -1px rgba(255, 73, 73, 0.747);
+    border: 2px solid rgb(207, 0, 0);
+
 }
