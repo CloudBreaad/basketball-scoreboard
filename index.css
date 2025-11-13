@@ -6,6 +6,7 @@ margin: 0;
     user-select: none;
     padding-bottom: none;
 }
+
 @font-face {
     font-family:'Cursed Timer ULiL';
     src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
@@ -36,12 +37,28 @@ margin: 0;
     font-family: "Cursed Timer ULiL";
     color: red;
 }
+#box-periode {
+    width: 50px;
+    height: auto ;
+    font-size: 50px; 
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    color: goldenrod;
+    
+}
+.textbox-periode {
+    font-size: medium;
+    font-style: oblique;
+    margin-top: 4px;
+}
 .league {
     margin-top: 30px;
     width: 40%;
     max-width: 400px;
     background-color: #fff;
     border-radius: 20px;
+    min-width:80px;
 }
 h3 {
     color: azure;
@@ -49,43 +66,73 @@ h3 {
     font-family: 'Bebas Neue',sans-serif;
     letter-spacing: 1px;
     font-size: 2.2rem;
-    color: #fff;
     margin-bottom: 20px;
+    text-shadow: 2px solid black;
 }
 .btn {
-    box-shadow:0px 10px 30px -5px rgba(245, 245, 245, 0.543);
+    box-shadow:0px 10px 30px -5px rgba(120, 218, 0, 0.543);
     margin-top: 20px;
     width: 45px;
     height: 45px;
     background-color: #309032;
-    border: 1px solid #9AABD8;
+    border: 1px solid #00ea27;
     color:whitesmoke ;
      font-family: "Cursed Timer ULiL";
 }
 .btn:hover {
     cursor: pointer;
     background-color: #4bcb5a;
-    box-shadow:0px 10px 50px -1px rgba(136, 255, 0, 0.543);
+    box-shadow:0px 10px 50px -1px rgba(136, 255, 0, 0.763);
     border: 2px solid #9AABD8;
 }
 #resetkawan {
     width: 70px;
     background-color: #d31c1c;
     box-shadow:0px 10px 50px -1px rgba(255, 0, 0, 0.543);
+    border: 2px solid rgb(207, 0, 0);
 }
 #resetkawan:hover {
     background-color: darkred; 
     box-shadow:0px 10px 70px -1px rgba(255, 73, 73, 0.747);
-    border: 2px solid rgb(207, 0, 0);
 } 
 #resetlawan {
     background-color: #d31c1c;
     width: 70px;
     box-shadow:0px 10px 50px -1px rgba(255, 0, 0, 0.543);
+    border: 2px solid rgb(207, 0, 0);
 }
 #resetlawan:hover {
     background-color: darkred;
     box-shadow:0px 10px 70px -1px rgba(255, 73, 73, 0.747);
-    border: 2px solid rgb(207, 0, 0);
 
+}
+
+.periodebtn {
+  color: #fff;
+  background-color: goldenrod;
+  border:2px solid #9AABD8;
+  box-shadow:0px 10px 50px -1px rgba(170, 255, 0, 0.263);
+  width: 50px;
+  border-radius: 2px;
+  font-family: "Cursed Timer ULiL";
+  padding-bottom: 2px;
+  padding-bottom: 1px;
+}
+.periodebtn:hover {
+  box-shadow:0px 10px 70px -1px rgba(170, 255, 0, 0.747);
+  background-color: rgb(218, 182, 91);
+  cursor: pointer;
+}
+
+#reload {
+    background-color: #d31c1c;
+    width: 70px;
+    box-shadow:0px 10px 50px -1px rgba(255, 0, 0, 0.543);
+    border: 2px solid rgb(207, 0, 0);
+    width: 30px;
+}
+#reload:hover {
+        background-color: darkred;
+    box-shadow:0px 10px 70px -1px rgba(255, 73, 73, 0.747);
+    border: 2px solid rgb(207, 0, 0);
 }
