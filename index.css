@@ -17,7 +17,12 @@ margin: 0;
     justify-content: space-around;
     gap: 1px;
     background: linear-gradient(45deg,#1B244A,#444e79);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/022/336/935/non_2x/basketball-background-illustration-ai-generative-free-photo.jpg) ;
     min-height: 100vh;
+     background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+    background-attachment: scroll;
     -webkit-backdrop-filter: blur(39px);
     backdrop-filter: blur(39px);
 }
