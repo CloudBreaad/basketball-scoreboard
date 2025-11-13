@@ -89,6 +89,7 @@ h3 {
     background-color: #4bcb5a;
     box-shadow:0px 10px 50px -1px rgba(136, 255, 0, 0.763);
     border: 2px solid #9AABD8;
+    transition: width 2s, height 2s, background-color 0.6s, transform 1s;
 }
 #resetkawan {
     width: 70px;
@@ -127,6 +128,7 @@ h3 {
   box-shadow:0px 10px 70px -1px rgba(170, 255, 0, 0.747);
   background-color: rgb(218, 182, 91);
   cursor: pointer;
+  transition: width 2s, height 2s, background-color 0.5s, transform 1s;
 }
 
 #reload {
